@@ -38,5 +38,5 @@ On each page of the proof, there are three sections, separated by coloured horiz
 - The middle section states the lemma for a relation reduction.
 - The bottom section contains the proof.
 - In the technical proof,
-  - we use a square box to highlight the local circuit where we apply the rewrite rules.
+  - we use a square box to emphasize the local circuit where we apply the rewrite rules.
   - we use an equation with rewrite rules on top of or beneath it to indicate that these rules are applied at this step.
