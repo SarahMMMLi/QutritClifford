@@ -8,3 +8,5 @@ Using the derived relations and the meta rules, we show that all the box relatio
 - Single-Qutrit
 - Two-Qutrit
 - Three-Qutrit
+
+In the meantime, the correctness of all proofs and the soundness of all box relations were checked by verifying for many intermediate steps. Our python codes can be found at [Verification](https://github.com/SarahMMMLi/QutritClifford/blob/main/Verification.ipynb).
