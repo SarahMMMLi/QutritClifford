@@ -32,7 +32,7 @@ We use a few abbreviations to simplify the discussions, as summarized below.
 - **Proof cont.** is short for 'Proof Continued'.
 
 ## Conventions
-On each page of the proof, there are three sections.
+On each page of the proof, there are three sections, separated by coloured horizontal lines.
 
 - The top section contains all the rules used to reduce a relation.
 - The middle section states the lemma for a relation reduction.
