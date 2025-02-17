@@ -15,8 +15,8 @@ Using the derived relations and the meta rules, we show that all the box relatio
 
 In each folder, we proceed in two steps. Take single-qutrit Clifford completeness as an example. The proofs for two- and three-qutrit Clifford completeness are carried out analogously.
 
-- We show that the set of 12 derived relations in Figure 46 are consequences of the 7 reduced relations in Figure 45. All proofs can be found in the folder titled [Box2Derived](https://github.com/SarahMMMLi/QutritClifford/tree/main/Single-Qutrit/Box2Derived).
-- We show that the set of 34 box relations in Appendix D.2 are consequences of the 12 derived relations in Figure 46. All proofs can be found in the folder titled [Derived2Reduced](https://github.com/SarahMMMLi/QutritClifford/tree/main/Single-Qutrit/Derived2Reduced).
+- We show that the set of 12 derived relations in Figure 46 are consequences of the 7 reduced relations in Figure 45. All proofs can be found in the folder titled [Derived2Reduced](https://github.com/SarahMMMLi/QutritClifford/tree/main/Single-Qutrit/Derived2Reduced).
+- We show that the set of 34 box relations in Appendix D.2 are consequences of the 12 derived relations in Figure 46. All proofs can be found in the folder titled [Box2Derived](https://github.com/SarahMMMLi/QutritClifford/tree/main/Single-Qutrit/Box2Derived).
 
 To simplify the relation reduction, we use meta rules to derive useful variants of rewrite rules in Figures 45 and 46. All proofs can be found in the document titled [Variants_single_qutrit.pdf](https://github.com/SarahMMMLi/QutritClifford/blob/main/Single-Qutrit/Variants_single_qutrit.pdf).
 
