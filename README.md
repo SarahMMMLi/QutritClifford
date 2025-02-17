@@ -40,3 +40,5 @@ On each page of the proof, there are three sections, separated by coloured horiz
 - In the technical proof,
   - we use a square box to emphasize the local circuit where we apply the rewrite rules.
   - we use an equation with rewrite rules on top of or beneath it to indicate that these rules are applied at this step.
+
+An example is shown below: ![](https://github.com/SarahMMMLi/QutritClifford/blob/main/Figures/Example.jpeg)
