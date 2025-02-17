@@ -5,7 +5,7 @@ This repository contains technical proofs as described in Appendix E of the pape
 ![](https://github.com/SarahMMMLi/QutritClifford/blob/main/Figures/Figure1.png)
 
 ## Folder Structure
-Using the derived relations and the meta rules, we show that all the box relations in Appendix D are consequences of the reduced relations in Figure 1. We do this by first proving all single-qutrit derived relations and box relations so that we can claim we have completeness for single-qutrit Clifford circuits. We can then use this completeness as a lemma for proving results about two-qutrit circuits. After similarly showing completeness for two-qutrit circuits, we can then use this completeness as a lemma for proving results regarding the three-qutrit circuits. Hence the proofs are arranged in folders titled:
+Using the derived relations and the meta rules, we show that all the box relations in Appendix D are consequences of the reduced relations in Figure 1. We do this by first proving all single-qutrit box relations are consequences of the single-qutrit reduced relations. Then we can claim that the 7 reduced relations in Figure 45 give the single-qutrit Clifford completeness. We can then use this completeness as a lemma for proving results about two-qutrit circuits. After similarly showing completeness for two-qutrit circuits, we can then use this completeness as a lemma for proving results regarding the three-qutrit circuits. Hence the proofs are arranged in folders titled:
 
 - Single-Qutrit
 - Two-Qutrit
