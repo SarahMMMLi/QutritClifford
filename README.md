@@ -14,7 +14,18 @@ In the meantime, the correctness of all proofs and the soundness of all box rela
 ## Notations
 We use a few abbreviations to simplify the discussions, as summarized below.
 
-- WTS is short for 'Want To Show'
-- LHS is short for 'Lefthand Side'
-- RHS is short for 'Righthand Side'
-- Proof cont. is short for 'Proof Continued'
+- WTS is short for 'Want To Show'.
+- LHS is short for 'Lefthand Side'.
+- RHS is short for 'Righthand Side'.
+- Let R be a relation. R.LHS means the lefthand side of R. R.RHS means the righthand side of R. 
+- Proof cont. is short for 'Proof Continued'.
+
+## Conventions
+On each page of the proof, there are three sections.
+
+- The top section contains all the rules used to reduce a relation.
+- The middle section states the lemma for a relation reduction.
+- The bottom section contains the proof.
+- In the technical proof,
+  - we use a square box to highlight the local circuit where we apply the rewrite rules.
+  - we use an equation with rewrite rules on top of or beneath it to indicate that these rules are applied at this step.
