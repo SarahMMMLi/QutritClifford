@@ -7,11 +7,18 @@ In what follows, we explain the folder structure, notations, and the conventions
 ![](https://github.com/SarahMMMLi/QutritClifford/blob/main/Figures/Figure1.png)
 
 ## Folder Structure
-Using the derived relations and the meta rules, we show that all the box relations in Appendix D are consequences of the reduced relations in Figure 1. We do this by first proving all single-qutrit box relations are consequences of the single-qutrit reduced relations. Then we can claim that the 7 reduced relations in Figure 45 give the single-qutrit Clifford completeness. We can then use this completeness as a lemma for proving results about two-qutrit circuits. After similarly showing completeness for two-qutrit circuits, we can then use this completeness as a lemma for proving results regarding the three-qutrit circuits. Hence the proofs are arranged in folders titled:
+Using the derived relations and the meta rules, we show that all the box relations in Appendix D are consequences of the reduced relations in Figure 1. We do this by first proving all single-qutrit box relations are consequences of the single-qutrit reduced relations. Then we can claim that the 7 reduced relations in Figure 45 give the single-qutrit Clifford completeness. We can then use this completeness as a lemma for proving results about two-qutrit Clifford circuits. After similarly showing two-qutrit Clifford completeness, we can then use this as a lemma for proving results regarding the three-qutrit Clifford circuits. Hence the proofs are arranged in folders titled:
 
 - Single-Qutrit
 - Two-Qutrit
 - Three-Qutrit
+
+In each folder, we proceed in two steps. Take single-qutrit Clifford circuits as an example. The proofs for two- and three-qutrit Clifford circuits are carried out analogously.
+
+- We show that the set of 12 derived relations in Figure 46 are consequences of the 7 reduced relations in Figure 45. All proofs can be found in the folder titled [Box2Derived](https://github.com/SarahMMMLi/QutritClifford/tree/main/Single-Qutrit/Box2Derived).
+- We show that the set of 34 box relations in Appendix D.2 are consequences of the 12 derived relations in Figure 46. All proofs can be found in the folder titled [Derived2Reduced](https://github.com/SarahMMMLi/QutritClifford/tree/main/Single-Qutrit/Derived2Reduced).
+
+To simplify the relation reduction, we use meta rules to derive useful variants of rewrite rules in Figures 45 and 46. All proofs can be found in the document titled [Variants_single_qutrit.pdf](https://github.com/SarahMMMLi/QutritClifford/blob/main/Single-Qutrit/Variants_single_qutrit.pdf).
 
 In the meantime, the correctness of all proofs and the soundness of all box relations were checked by verifying for many intermediate steps. Our python codes can be found at [Verification.ipynb](https://github.com/SarahMMMLi/QutritClifford/blob/main/Verification.ipynb).
 
