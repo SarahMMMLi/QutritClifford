@@ -25,11 +25,11 @@ In the meantime, the correctness of all proofs and the soundness of all box rela
 ## Notations
 We use a few abbreviations to simplify the discussions, as summarized below.
 
-- WTS is short for 'Want To Show'.
-- LHS is short for 'Lefthand Side'.
-- RHS is short for 'Righthand Side'.
-- Let R be a relation. R.LHS means the lefthand side of R. R.RHS means the righthand side of R. 
-- Proof cont. is short for 'Proof Continued'.
+- **WTS** is short for 'Want To Show'.
+- **LHS** is short for 'Lefthand Side'.
+- **RHS** is short for 'Righthand Side'.
+- Let R be a relation. **R.LHS** means the lefthand side of R. **R.RHS** means the righthand side of R. 
+- **Proof cont.** is short for 'Proof Continued'.
 
 ## Conventions
 On each page of the proof, there are three sections.
